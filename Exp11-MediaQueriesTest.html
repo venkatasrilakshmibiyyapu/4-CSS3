@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Media Queries</title>
+        <style>
+             /* hs1:hue,saturation,lightness*/
+                .container{
+                    margin:0 auto;
+                    background:hsl(154, 94%, 37%);
+                    box-sizing:border-box;
+                }
+            /*  Smart phones(potrait and landscape)--------*/
+            @media screen and (min-width:550px){
+                .container{
+                    width:100%;
+                    padding:5px 10px;
+                }
+            }
+            /*Tablet,ipad(potrait and landscape)--------*/
+            @media screen and (min-width:768px){
+                .container{
+                    width:750%;
+                    padding:5px 10px;
+                }
+            }
+            /* low resolution Desktops and laptops*/
+            @media screen and (min-width:1024px){
+                .container{
+                    width:750%;
+                    padding:5px 10px;
+
+                }
+            }
+            /* High resolution Desktops and laptops*/
+            @media screen and (min-width:1024px){
+                .container{
+                    width:1200%;
+                    padding:5px 20px;
+
+                }
+            }
+        </style>      
+    </head>
+    <body>
+        <h2>Padding........to CSS3<h2>
+        <div class="container">
+            <p>
+            Welcome to CSS3 Padding......Welcome to CCs3
+            Padding........Welcome to CCS3 Padding........Welcome to CSS3
+            Padding........Welcome to CCS3 Padding........Welcome to CSS3
+            Padding........Welcome to CCS3 Padding........Welcome to CSS3
+            Padding........Welcome to CCS3 Padding........Welcome to CSS3
+            </p>
+    </body>
+</html>
